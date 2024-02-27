@@ -24,6 +24,10 @@ body {
  .weather-forecast{
     margin-top:10px;
     color:000;
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+    
  }
 .weather-forecast-date{
     font-size:16px;
