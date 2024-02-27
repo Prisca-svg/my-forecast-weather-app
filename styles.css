@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto", sans-serif; 
+    background-color:aliceblue;
+ }
+ .weather-app {
+ background-color: white;
+ padding: 30px;
+ padding-right: 25px;
+ margin: 45px auto;
+ max-width: 800px;
+ box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+ border-radius: 16px;
+ }
+ .weather-app-figures{
+    display:flex;
+ }
+ .weather-app-city{
+    margin: 0;
+    font-size:38px;
+    font-weight:48px;
+    line-height: 40px;
+    margin-bottom: 10px;
+ }
+ .weather-forecast{
+    margin-top:10px;
+    color:000;
+ }
+.weather-forecast-date{
+    font-size:16px;
+    opacity: 0.5;
+}
+.weather-forecast-temperature{
+    font-size: 15px;
+}
+.weather-forecast-temperature-max{
+
+}
+.weather-forecast-temperature-min{
+opacity:0.5;
+}
+ .weather-app-details{
+    line-height:30px;
+    font-size:16px;
+    font-weight: 500;
+ }
+ .weather-app-temp{
+    font-size:65px;
+    font-weight: bold;
+    margin-left:10px;
+ }
+ .weather-app-icon{
+       margin-top: -10px;
+       width: 80px;
+       height: 80px;
+    }
+    .weather-app-degree{
+       
+       font-size: 20px;
+       margin-top:10px;
+    }
+    strong{
+       color:#f65282;
+    }
+ header{
+    border-bottom: 1px solid aliceblue;
+    padding: 0 0 30px 0;
+    margin-top: 5px;
+ }
+ a{
+ color:blue;
+ }
+ .weather-data{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+ }
+ .search-form{
+    display: block;
+ }
+ .search-form-input{
+    font-family: "Roboto", sans-serif; 
+    background-color:aliceblue;
+    padding: 20px 30px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    margin: 25px auto;  
+ }
+ .search-form-button{
+    background-color:blue;
+    padding: 20px 30px;
+    font-family: "Roboto", sans-serif; 
+    margin: 25px auto;
+ margin-left: 16px;
+ font-size: 16px;
+ color:whitesmoke;
+ border: none;
+ font-weight: bold;
+ border-radius: 10px;
+ }
+ footer{
+    border-top: 2px solid aliceblue;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    font-size: 15px;
+    
+ }
