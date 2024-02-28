@@ -66,7 +66,7 @@ forecastHtml = forecastHtml + `
     <div class="weather-forecast-day">
     <div class="weather-forecast-date">${formatDay(day.time)}</div> <div class="weather-forecast-icon">
 <img src="${day.condition.icon_url}"></div>
-  <div class="weather-forecast-temperature"><span class="weather-forecast-temperature-max"><strong>${Math.round(day.temperature.maximum)}&deg;</strong>  </span><span class="weather-forecast-temperature-min"> ${Math.round(day.temperature.minimum)}&deg;</span></div> 
+  <div class="weather-forecast-temperature"><span class="weather-forecast-temperature-max"><strong>${Math.round(day.temperature.maximum)}&deg;</strong></span>   <span class="weather-forecast-temperature-min"> ${Math.round(day.temperature.minimum)}&deg;</span></div> 
 </div>
 `;
     }
